@@ -4,24 +4,42 @@ using UnityEngine;
 
 public class Balancer : MonoBehaviour
 {
-    public float headBalanceSpring, headBalanceDamping;
-    public float headBalanceAngularSpring, headBalanceAngularDamping;
-    public float maxHeadDisplacement=1.5f;
-    public LayerMask notMe;
-    public GameObject head, lFoot, rFoot;
-
-    [SerializeField] private ProceduralFootPlacement lFootPlacement, rFootPlacement;
-
+    [Header("Body Parts Assignment")]
+    public GameObject head;
+    public GameObject lFoot;
+    public GameObject rFoot;
     private Rigidbody _headRB;
-    private PhysicsIK lFootIK, rFootIK;
-    private float height;
     private Rigidbody body;
 
-    private int stepIndex;
+    [Header("Balance Settings")]
+    public float balanceSpring;
+    public float balanceDamping;
+    public float headBalanceAngularSpring, headBalanceAngularDamping;
+    public float maxHeadDisplacement = 1.5f;
+    private float height;
+    private float hipHeight;
+    public LayerMask notMe;
+
+    //[Header("Foot Placement")]
+    private PhysicsIK lFootIK;
+    private PhysicsIK rFootIK;
+
+    [Header("Getting Up Settings")]
+    [SerializeField] private float getUpTime=4;
+    private float _gettingUpTimeLeft; 
+
+
+    private bool gettingUp
+    {
+        get
+        {
+            return _gettingUpTimeLeft < getUpTime;
+        }
+    }
 
     enum BalanceState
     {
-        Balanced, Unbalanced
+        Balanced, Unbalanced, GettingUp
     }
 
     BalanceState _state;
@@ -29,7 +47,25 @@ public class Balancer : MonoBehaviour
     {
         get
         {
-            return (lFoot.transform.position+rFoot.transform.position)/2;
+            Vector3 lPos = lFoot.transform.position;
+            Vector3 rPos = rFoot.transform.position;
+            float yVal = Mathf.Min(lPos.y, rPos.y);
+            lPos.y = yVal;
+            rPos.y = yVal;
+            return (lPos + rPos) / 2;
+        }
+    }
+
+    private Vector3 footIKCentre
+    {
+        get
+        {
+            Vector3 lPos = lFootIK.IKGoalPosition;
+            Vector3 rPos = rFootIK.IKGoalPosition;
+            float yVal=Mathf.Min(lPos.y,rPos.y);
+            lPos.y=yVal;
+            rPos.y=yVal;
+            return (lPos+rPos)/2;
         }
     }
     // Start is called before the first frame update
@@ -40,7 +76,6 @@ public class Balancer : MonoBehaviour
         rFootIK=rFoot.GetComponent<PhysicsIK>();
         _headRB=head.GetComponent<Rigidbody>();
         Init();
-        stepIndex=0;
     }
 
     // Update is called once per frame
@@ -53,6 +88,8 @@ public class Balancer : MonoBehaviour
                 break;
             case BalanceState.Unbalanced:
                 UnbalancedBehavior(); break;
+            case BalanceState.GettingUp:
+                GettingUpBehavior(); break;
 
         }
     }
@@ -60,37 +97,87 @@ public class Balancer : MonoBehaviour
     void Init()
     {
         height=Vector3.Distance(head.transform.position, footCentre);
+        hipHeight=Vector3.Distance(transform.position, footCentre);
     }
 
     void BalancedBehavior()
     {
         if (!Physics.Raycast(head.transform.position, Vector3.down, out RaycastHit hit,height*1.1f, notMe))
         {
-            _state = BalanceState.Unbalanced;
-            lFootIK.IKStrength= 0;
-            rFootIK.IKStrength = 0;            
+            MakeUnbalanced();           
             return;
         }
 
         Vector3 headDisplacement = head.transform.position - footCentre;
         headDisplacement.y = 0;
-        if (headDisplacement.sqrMagnitude > maxHeadDisplacement * maxHeadDisplacement)
+        if (headDisplacement.sqrMagnitude > maxHeadDisplacement * maxHeadDisplacement && !gettingUp)
         {
-            _state= BalanceState.Unbalanced;
-            lFootIK.IKStrength = 0;
-            rFootIK.IKStrength = 0;
+            MakeUnbalanced();
             return;
         }
-        Vector3 desHeadPos = footCentre + Vector3.up * height;
-        Vector3 desHeadVel = headBalanceSpring * (desHeadPos - head.transform.position);
-        _headRB.AddForce(headBalanceDamping*(desHeadVel-_headRB.velocity));
+        Vector3 desHeadPos = footIKCentre + Vector3.up * height*1.05f;
+        Vector3 desHeadVel = balanceSpring * (desHeadPos - head.transform.position);
+        _headRB.AddForce(balanceDamping*(desHeadVel-_headRB.velocity));
         _headRB.angularVelocity = headBalanceAngularSpring * Vector3.Cross(head.transform.up, Vector3.up);
-        
-        
+
+        /*
+        Vector3 desHipPos = footIKCentre + Vector3.up * hipHeight;
+        Vector3 desHipVel = balanceSpring * (desHipPos - transform.position);
+        body.AddForce(balanceDamping * (desHipVel - body.velocity));
+        */
     }
 
     void UnbalancedBehavior()
     {
+        if (!Physics.Raycast(head.transform.position, Vector3.down, height * 1.1f, notMe))
+        {
+            _gettingUpTimeLeft = 0;
+            return;
+        }
+        if (_gettingUpTimeLeft >= getUpTime / 2)
+        {
+            _state = BalanceState.GettingUp;
+            return;
+        }
+        _gettingUpTimeLeft += Time.deltaTime;
+    }
 
+    void GettingUpBehavior()
+    {
+        if (!Physics.Raycast(head.transform.position, Vector3.down, out RaycastHit hit, height * 1.1f, notMe))
+        {
+            MakeUnbalanced();
+            return;
+        }
+        if (!gettingUp)
+        {
+            _state = BalanceState.Balanced;
+            return;
+        }
+        _gettingUpTimeLeft += Time.deltaTime;
+        
+        Vector3 desHeadPos;
+        if (_gettingUpTimeLeft < 0.75 * getUpTime)
+        {
+            desHeadPos = hit.point + Vector3.up * height/2;
+            
+        }
+        else
+        {
+            desHeadPos = hit.point + Vector3.up * height;
+            lFootIK.IKStrength = 2 * (_gettingUpTimeLeft / getUpTime) - 1;
+            rFootIK.IKStrength = 2 * (_gettingUpTimeLeft / getUpTime) - 1;
+        }
+        Vector3 desHeadVel = balanceSpring * (desHeadPos - head.transform.position);
+        _headRB.AddForce(balanceDamping * (desHeadVel - _headRB.velocity));
+        _headRB.angularVelocity = headBalanceAngularSpring * Vector3.Cross(head.transform.up, Vector3.up);
+    }
+
+    void MakeUnbalanced()
+    {
+        _state = BalanceState.Unbalanced;
+        lFootIK.IKStrength = 0;
+        rFootIK.IKStrength = 0;
+        _gettingUpTimeLeft = 0;
     }
 }

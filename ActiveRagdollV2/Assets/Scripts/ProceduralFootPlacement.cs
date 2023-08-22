@@ -12,6 +12,10 @@ public class ProceduralFootPlacement : MonoBehaviour
     [SerializeField] private float stepDistance=0.4f;
     [SerializeField] private LayerMask ground;
 
+
+    public Vector3 moveDir;
+    public float moveFactor;
+
     private Vector3 curPosL, curPosR;
     private int _stepIndex=0;
     private Rigidbody _body;
@@ -33,7 +37,7 @@ public class ProceduralFootPlacement : MonoBehaviour
 
     void PositionRaycaster()
     {
-        rootRaycaster.position=transform.position+_body.velocity*stepFactor;
+        rootRaycaster.position=transform.position+_body.velocity*stepFactor+moveFactor*moveDir;
         var _forward=transform.forward;
         _forward.y = 0;
         rootRaycaster.rotation = Quaternion.LookRotation(_forward, Vector3.up);
@@ -54,6 +58,8 @@ public class ProceduralFootPlacement : MonoBehaviour
         }
         else
         {
+            Physics.Raycast(currPos + Vector3.up * raycastHeight/2, Vector3.down, out RaycastHit hit2, raycastHeight, ground);
+            currPos= hit2.point;
             if (!foot.movingGoal)
                 foot.SetIKGoalPosition(currPos);
         }
