@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Torso
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: ArcherHood
+    m_Weight: 0
+  - m_Path: ArcherMask
+    m_Weight: 0
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/Body
+    m_Weight: 0
+  - m_Path: Armature/Body/Foot.L
+    m_Weight: 0
+  - m_Path: Armature/Body/Foot.L/Foot.L_end
+    m_Weight: 0
+  - m_Path: Armature/Body/Foot.R
+    m_Weight: 0
+  - m_Path: Armature/Body/Foot.R/Foot.R_end
+    m_Weight: 0
+  - m_Path: Armature/Body/Hand.L
+    m_Weight: 1
+  - m_Path: Armature/Body/Hand.L/Hand.L_end
+    m_Weight: 1
+  - m_Path: Armature/Body/Hand.R
+    m_Weight: 1
+  - m_Path: Armature/Body/Hand.R/Hand.R_end
+    m_Weight: 1
+  - m_Path: Armature/Body/Head
+    m_Weight: 1
+  - m_Path: Armature/Body/Head/Head_end
+    m_Weight: 1
+  - m_Path: Arriow
+    m_Weight: 0
+  - m_Path: Bow
+    m_Weight: 0
+  - m_Path: MageCape
+    m_Weight: 0
+  - m_Path: MageHat
+    m_Weight: 0
+  - m_Path: MageStaff
+    m_Weight: 0
+  - m_Path: Man
+    m_Weight: 0
+  - m_Path: Shield
+    m_Weight: 0
+  - m_Path: SpellBook
+    m_Weight: 0
+  - m_Path: Sword
+    m_Weight: 0
+  - m_Path: WarriorArmour
+    m_Weight: 0
+  - m_Path: WarriorHelmet
+    m_Weight: 0

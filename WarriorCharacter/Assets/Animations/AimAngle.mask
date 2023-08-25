@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AimAngle
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/Hip
+    m_Weight: 0
+  - m_Path: Armature/Hip/Hip.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Hip.L/Thigh.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Hip.L/Thigh.L/Knee.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Hip.L/Thigh.L/Knee.L/Foot.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Hip.L/Thigh.L/Knee.L/Foot.L/Toe.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Hip.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Hip.R/Thigh.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Hip.R/Thigh.R/Knee.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Hip.R/Thigh.R/Knee.R/Foot.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Hip.R/Thigh.R/Knee.R/Foot.R/Toe.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1
+    m_Weight: 1
+  - m_Path: Armature/Hip/Spine1/BackHolder
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L
+    m_Weight: 1
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/Bow.T
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/Bow.T/Bow.T1
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/Bow.T/Bow.T1/Palm.L.012
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/Bow.T/Bow.T1/Palm.L.012/Palm.L.013
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/Bow.T/Bow.T1/Palm.L.012/Palm.L.013/Palm.L.014
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/BowBIK
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/BowTIK
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/Palm.L.004
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/Palm.L.004/Palm.L.005
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/Palm.L.004/Palm.L.005/Palm.L.006
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/Palm.L.004/Palm.L.005/Palm.L.006/Palm.L.007
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/Palm.L.004/Palm.L.005/Palm.L.006/Palm.L.007/Palm.L.008
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Bow
+      1/String
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Finger.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Finger.L/Finger1.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Palm.L/Finger.L/Finger1.L/Finger2.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Shield 1
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Thumb.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.L/Shoulder.L/Arm.L/Elbow.L/Hand.L/Thumb.L/Thumb1.L
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R
+    m_Weight: 1
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R/Arm.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R/Arm.R/Elbow.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R/Arm.R/Elbow.R/Hand.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R/Arm.R/Elbow.R/Hand.R/Palm.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R/Arm.R/Elbow.R/Hand.R/Palm.R/Finger.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R/Arm.R/Elbow.R/Hand.R/Palm.R/Finger.R/Arrow
+      1
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R/Arm.R/Elbow.R/Hand.R/Palm.R/Finger.R/Finger1.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R/Arm.R/Elbow.R/Hand.R/Palm.R/Finger.R/Finger1.R/Finger2.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R/Arm.R/Elbow.R/Hand.R/Palm.R/Sword
+      1
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R/Arm.R/Elbow.R/Hand.R/Thumb.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Chest.R/Shoulder.R/Arm.R/Elbow.R/Hand.R/Thumb.R/Thumb1.R
+    m_Weight: 0
+  - m_Path: Armature/Hip/Spine1/Spine2
+    m_Weight: 1
+  - m_Path: Armature/Hip/Spine1/Spine2/Neck
+    m_Weight: 1
+  - m_Path: Armature/Hip/Spine1/Spine2/Neck/Head
+    m_Weight: 1
+  - m_Path: Armour
+    m_Weight: 0
+  - m_Path: Arrow
+    m_Weight: 0
+  - m_Path: Arrow.001
+    m_Weight: 0
+  - m_Path: Arrow.002
+    m_Weight: 0
+  - m_Path: Arrow.003
+    m_Weight: 0
+  - m_Path: Arrow.004
+    m_Weight: 0
+  - m_Path: Arrow.005
+    m_Weight: 0
+  - m_Path: Arrow.008
+    m_Weight: 0
+  - m_Path: ArrowObject
+    m_Weight: 0
+  - m_Path: Body
+    m_Weight: 0
+  - m_Path: Bow
+    m_Weight: 0
+  - m_Path: Bow2
+    m_Weight: 0
+  - m_Path: Helmet
+    m_Weight: 0
+  - m_Path: Hood
+    m_Weight: 0
+  - m_Path: Quiver
+    m_Weight: 0
+  - m_Path: Shield
+    m_Weight: 0
+  - m_Path: Shield2
+    m_Weight: 0
+  - m_Path: ShieldObject
+    m_Weight: 0
+  - m_Path: Sword
+    m_Weight: 0
+  - m_Path: Sword2
+    m_Weight: 0
+  - m_Path: SwordObject
+    m_Weight: 0

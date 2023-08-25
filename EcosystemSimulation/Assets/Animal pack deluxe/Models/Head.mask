@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Head
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_l_HindLeg_HipSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_l_HindLeg_HipSHJnt/Wolf_l_HindLeg_Knee1SHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_l_HindLeg_HipSHJnt/Wolf_l_HindLeg_Knee1SHJnt/Wolf_l_HindLeg_Knee2SHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_l_HindLeg_HipSHJnt/Wolf_l_HindLeg_Knee1SHJnt/Wolf_l_HindLeg_Knee2SHJnt/Wolf_l_HindLeg_AnkleSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_l_HindLeg_HipSHJnt/Wolf_l_HindLeg_Knee1SHJnt/Wolf_l_HindLeg_Knee2SHJnt/Wolf_l_HindLeg_AnkleSHJnt/Wolf_l_HindLeg_BallSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_l_HindLeg_HipSHJnt/Wolf_l_HindLeg_Knee1SHJnt/Wolf_l_HindLeg_Knee2SHJnt/Wolf_l_HindLeg_AnkleSHJnt/Wolf_l_HindLeg_BallSHJnt/Wolf_l_HindLeg_ToeSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_r_HindLeg_HipSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_r_HindLeg_HipSHJnt/Wolf_r_HindLeg_Knee1SHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_r_HindLeg_HipSHJnt/Wolf_r_HindLeg_Knee1SHJnt/Wolf_r_HindLeg_Knee2SHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_r_HindLeg_HipSHJnt/Wolf_r_HindLeg_Knee1SHJnt/Wolf_r_HindLeg_Knee2SHJnt/Wolf_r_HindLeg_AnkleSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_r_HindLeg_HipSHJnt/Wolf_r_HindLeg_Knee1SHJnt/Wolf_r_HindLeg_Knee2SHJnt/Wolf_r_HindLeg_AnkleSHJnt/Wolf_r_HindLeg_BallSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_r_HindLeg_HipSHJnt/Wolf_r_HindLeg_Knee1SHJnt/Wolf_r_HindLeg_Knee2SHJnt/Wolf_r_HindLeg_AnkleSHJnt/Wolf_r_HindLeg_BallSHJnt/Wolf_r_HindLeg_ToeSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_l_Clavicle_01_01SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_l_Clavicle_01_01SHJnt/Wolf_l_FrontLeg_HipSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_l_Clavicle_01_01SHJnt/Wolf_l_FrontLeg_HipSHJnt/Wolf_l_FrontLeg_KneeSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_l_Clavicle_01_01SHJnt/Wolf_l_FrontLeg_HipSHJnt/Wolf_l_FrontLeg_KneeSHJnt/Wolf_l_FrontLeg_AnkleSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_l_Clavicle_01_01SHJnt/Wolf_l_FrontLeg_HipSHJnt/Wolf_l_FrontLeg_KneeSHJnt/Wolf_l_FrontLeg_AnkleSHJnt/Wolf_l_FrontLeg_BallSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_l_Clavicle_01_01SHJnt/Wolf_l_FrontLeg_HipSHJnt/Wolf_l_FrontLeg_KneeSHJnt/Wolf_l_FrontLeg_AnkleSHJnt/Wolf_l_FrontLeg_BallSHJnt/Wolf_l_FrontLeg_ToeSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_JawSHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_JawSHJnt/Wolf_Head_JawEndSHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_JawSHJnt/Wolf_Tongue_01_01SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_JawSHJnt/Wolf_Tongue_01_01SHJnt/Wolf_Tongue_01_02SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_JawSHJnt/Wolf_Tongue_01_01SHJnt/Wolf_Tongue_01_02SHJnt/Wolf_Tongue_01_03SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_JawSHJnt/Wolf_Tongue_01_01SHJnt/Wolf_Tongue_01_02SHJnt/Wolf_Tongue_01_03SHJnt/Wolf_Tongue_01_04SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_TopSHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_TopSHJnt/Wolf_l_Ear_01_01SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_TopSHJnt/Wolf_l_Ear_01_01SHJnt/Wolf_l_Ear_01_02SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_TopSHJnt/Wolf_l_Ear_01_01SHJnt/Wolf_l_Ear_01_02SHJnt/Wolf_l_Ear_01_03SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_TopSHJnt/Wolf_r_Ear_01_01SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_TopSHJnt/Wolf_r_Ear_01_01SHJnt/Wolf_r_Ear_01_02SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_Neck_01SHJnt/Wolf_Neck_02SHJnt/Wolf_Neck_TopSHJnt/Wolf_Head_TopSHJnt/Wolf_r_Ear_01_01SHJnt/Wolf_r_Ear_01_02SHJnt/Wolf_r_Ear_01_03SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_r_Clavicle_01_01SHJnt
+    m_Weight: 1
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_r_Clavicle_01_01SHJnt/Wolf_r_FrontLeg_HipSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_r_Clavicle_01_01SHJnt/Wolf_r_FrontLeg_HipSHJnt/Wolf_r_FrontLeg_KneeSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_r_Clavicle_01_01SHJnt/Wolf_r_FrontLeg_HipSHJnt/Wolf_r_FrontLeg_KneeSHJnt/Wolf_r_FrontLeg_AnkleSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_r_Clavicle_01_01SHJnt/Wolf_r_FrontLeg_HipSHJnt/Wolf_r_FrontLeg_KneeSHJnt/Wolf_r_FrontLeg_AnkleSHJnt/Wolf_r_FrontLeg_BallSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Spine_01SHJnt/Wolf_Spine_02SHJnt/Wolf_Spine_03SHJnt/Wolf_Spine_04SHJnt/Wolf_Spine_TopSHJnt/Wolf_r_Clavicle_01_01SHJnt/Wolf_r_FrontLeg_HipSHJnt/Wolf_r_FrontLeg_KneeSHJnt/Wolf_r_FrontLeg_AnkleSHJnt/Wolf_r_FrontLeg_BallSHJnt/Wolf_r_FrontLeg_ToeSHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Tail_01_01SHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Tail_01_01SHJnt/Wolf_Tail_01_02SHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Tail_01_01SHJnt/Wolf_Tail_01_02SHJnt/Wolf_Tail_01_03SHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Tail_01_01SHJnt/Wolf_Tail_01_02SHJnt/Wolf_Tail_01_03SHJnt/Wolf_Tail_01_04SHJnt
+    m_Weight: 0
+  - m_Path: Wolf_MAINSHJnt/Wolf_ROOTSHJnt/Wolf_Tail_01_01SHJnt/Wolf_Tail_01_02SHJnt/Wolf_Tail_01_03SHJnt/Wolf_Tail_01_04SHJnt/Wolf_Tail_01_05SHJnt
+    m_Weight: 0
+  - m_Path: Wolf_Mesh
+    m_Weight: 0
